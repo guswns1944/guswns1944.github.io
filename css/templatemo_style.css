@@ -252,19 +252,13 @@ hr {
   width: 100%;
   margin: 0 auto;
   z-index: 1000;
-  top: 94px;
-  -webkit-transition: all 150ms ease-in-out;
-  -moz-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
+  top: 30px;
 }
 
 .scrolled {
   position: fixed;
   left: 0;
   top: 0;
-  -webkit-transition: all 150ms ease-in-out;
-  -moz-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
 }
 
 #menu-wrapper {
@@ -277,14 +271,14 @@ hr {
 
 .logo-wrapper {
   background: url(../images/logo.png) no-repeat;
-  height: 100px;
+  height: 60px;
   background-position: 15px;
 }
 .logo-wrapper a {
   display: inline-block;
   overflow: hidden;
   padding-left: 130px;
-  line-height: 100px;
+  line-height: 60px;
   text-transform: uppercase;
   color: #ec523f;
   font-size: 32px;
@@ -302,7 +296,7 @@ hr {
   text-transform: uppercase;
   font-size: 14px;
   color: #444444;
-  line-height: 100px;
+  line-height: 60px;
   padding-top: 37px;
 }
 .main-menu ul li.active a {
@@ -344,7 +338,10 @@ hr {
 
 .flexslider {
   position: relative;
-  top: -96px;
+  top: 70px;
+  width: 80%;
+  height: 80%;
+  display: block; margin:0px auto;
 }
 .flexslider .overlay {
   position: absolute;
@@ -380,14 +377,7 @@ hr {
   margin-bottom: 26px;
   display: block;
 }
-.flexslider .slider-caption a.slider-btn {
-  color: white;
-  background-color: #ec523f;
-  padding: 12px 20px;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
+
 @media screen and (min-width: 989px) {
   .flexslider .slider-caption {
     top: 230px;
