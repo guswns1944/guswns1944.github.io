@@ -257,10 +257,21 @@ hr {
 .aboutTable{
   width: 100%;
   text-align: center;
-  font-size: 20;
+  font-size: 20px;
 }
 .aboutTable th{
-	padding: 7px;
+  padding: 7px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #000000;
+}
+.contactTable{
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+.contactTable th{
+  padding: 7px;
     font-weight: bold;
     vertical-align: middle;
     color: #000000;
@@ -321,6 +332,7 @@ hr {
 .toggle-menu {
   width: 36px;
   height: 36px;
+  float: right;
   margin-top: 33px;
   margin-right: 30px;
   text-align: center;
