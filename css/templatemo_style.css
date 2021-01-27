@@ -265,6 +265,9 @@ hr {
     vertical-align: middle;
     color: #000000;
 }
+.aboutTable td{
+  vertical-align: middle;
+}
 .contactTable{
   width: 100%;
   text-align: center;
@@ -501,7 +504,7 @@ hr {
 }
 
 .content-section .content-section-heading{
-  padding: 6rem 0;
+  padding: 4rem 0;
   font-size: 2.25rem;
   line-height: 2rem;
 }
@@ -546,10 +549,12 @@ hr {
 }
 
 .service-item a {
-  color: #ffff66;
+  font-size: 15px;
+  color: #c70e0e;
+  font-weight: bold;
   display: inline-block;
   padding-bottom: 10px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   margin-bottom: 15px;
 }
 
@@ -559,7 +564,7 @@ hr {
 
 .service-item .service-icon {
   
-  padding: 110px 0;
+  padding: 50px 0;
 }
 .service-item .service-content {
   padding: 10px;
@@ -580,34 +585,38 @@ hr {
 .service-item .service-icon h2 {
   font-size: 18px;
   text-transform: uppercase;
-  color: white;
+  color: black;
   display: inline-block;
   padding-bottom: 10px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   margin-bottom: 15px;
 }
 .service-item .service-icon p {
-  color: white;
+  
+  color: black;
   display: inline-block;
   padding-bottom: 10px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   margin-bottom: 15px;
 }
 
 #service-1 {
-  background-color: #1abc9c;
+  background-color: #D5D5D5;
 }
 
 #service-2 {
-  background-color: #e67e22;
+  background-color: #D9E5FF;
 }
 
 #service-3 {
-  background-color: #3498db;
+  background-color: #D9E5FF;
 }
 
 #service-4 {
-  background-color: #2ecc71;
+  background-color: #D9E5FF;
+}
+#service-5 {
+  background-color: #D9E5FF;
 }
 
 .portfolio-item {
